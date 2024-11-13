@@ -8,4 +8,9 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        rollupOptions: {
+            external: ['lodash'], // Add lodash here to exclude it from the bundle
+        },
+    },
 });
