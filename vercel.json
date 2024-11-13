@@ -6,8 +6,8 @@
     },
     "routes": [
         {
-            "src": "/assets/(.*)",
-            "dest": "/public/assets/$1"
+            "src": "/asset/(.*)",
+            "dest": "/public/asset/$1"
         },
         {
             "src": "/Controllers/(.*)",
