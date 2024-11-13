@@ -27,7 +27,7 @@
       <a
         class="nav_btn"
         target="_blank"
-        href="{{ asset('_CV - Andrey Hartawan Suwardi.pdf') }}"
+        href="{{ asset('asset/_CV - Andrey Hartawan Suwardi.pdf') }}"
       >
         <button><i class=""></i> Download My CV</button>
       </a>
@@ -54,7 +54,7 @@
       </div>
 
       <div class="img_about">
-        <img src="{{ asset('andreyisu.webp') }}" alt="about img" />
+        <img src="{{ asset('asset/andreyisu.webp') }}" alt="about img" />
       </div>
 
       <div class="wave">
